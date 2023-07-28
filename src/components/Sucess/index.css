@@ -1,0 +1,10 @@
+.success-image{
+    width:80%;
+}
+.Final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}

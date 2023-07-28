@@ -1,0 +1,29 @@
+.cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.cart-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.place-order{
+    color: white !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+.empty-cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.para{
+    font-weight: bold;
+    font-family:sans-serif;
+    font-size:30px;
+}

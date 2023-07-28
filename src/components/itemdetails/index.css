@@ -1,0 +1,35 @@
+.itemm{
+    height:70vh;
+    width:30vw;
+    position: fixed;
+    left: 0;
+    top: 50%; /* You can adjust the top value to position the item vertically as per your requirement */
+    transform: translateY(-50%);
+    margin-top: 70px;
+}
+.item-details-mother{
+    display: flex;
+    width:70vw;
+    height: 70vh;
+    justify-content: space-around;
+    justify-content: center;
+    padding: 80px;
+    margin-top: 100px;
+}
+.remain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 400px;
+    margin-top:250px;
+}
+.buy{
+    background-color: orangered;
+}
+.addcart{
+    background-color:darkgoldenrod;
+    font-weight: bold;
+}
+.addcart :hover{
+    background-color: pink;
+}

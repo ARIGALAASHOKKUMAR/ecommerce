@@ -1,0 +1,31 @@
+.cart-item{
+    display: flex;
+    width:60%;
+    height: 60%;
+    background-color: white;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px yellow;
+
+}
+.cart-item img{
+    width:110%;
+    justify-self: center;
+}
+.cart-item img:hover{
+    width: 120%;
+}
+.cart-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:30%;
+    padding:20px;
+}
+.cart-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:30%;
+    /* border: 2px solid red; */
+}
